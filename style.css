@@ -16,7 +16,7 @@ html {
 #header {
     font-size: 3rem;
     padding: 1rem;
-    background-color: #305973;
+    background-color: #11468F;
     color: #fff;
 }
 
@@ -27,7 +27,7 @@ html {
 }
 
 #body {
-    background-color: #E3BEC6;
+    background-color: #D6E5FA;
     padding: 2rem 1rem;
 }
 
@@ -37,7 +37,7 @@ html {
 
 button {
     padding: 1rem;
-    background-color: #333;
+    background-color: #4B6587;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -50,7 +50,7 @@ button:hover {
 }
 
 #footer {
-    background-color: #305973;
+    background-color: #11468F;
     font-size: 1.5rem;
     padding: 1.5rem 1rem;
     color: #fff;

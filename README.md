@@ -1,1 +1,3 @@
-# Javascript Quiz App
+# Javascript Quiz Uygulaması
+
+![](./screenshots/app.jpg)
