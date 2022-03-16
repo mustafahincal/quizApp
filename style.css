@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -9,15 +11,18 @@ html {
 }
 
 .container {
-    width: 40%;
-    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    margin: auto;
 }
 
 #header {
     font-size: 3rem;
-    padding: 1rem;
-    background-color: #11468F;
-    color: #fff;
+    padding: 0.5rem 1rem;
+    background-color: #ffb2a6;
+    color: #111;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #question {
@@ -27,8 +32,13 @@ html {
 }
 
 #body {
-    background-color: #D6E5FA;
+    background-color: #eeeeee;
     padding: 2rem 1rem;
+}
+
+.score {
+    margin-top: 20px;
+    color: red;
 }
 
 #buttons {
@@ -37,21 +47,25 @@ html {
 
 button {
     padding: 1rem;
-    background-color: #4B6587;
+    background-color: #180a0a;
     color: #fff;
     border: none;
     border-radius: 3px;
-    margin-right: 1rem;
+    transition: all 0.3s;
+    margin: 10px 5px;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: #305973;
+    background-color: #ffb2a6;
+    color: #111;
 }
 
 #footer {
-    background-color: #11468F;
+    background-color: #ffb2a6;
     font-size: 1.5rem;
-    padding: 1.5rem 1rem;
-    color: #fff;
+    padding: 1rem 1rem;
+    color: #111;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
